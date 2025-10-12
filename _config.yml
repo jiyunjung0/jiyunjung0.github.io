@@ -1,22 +1,22 @@
 # Basic Information 
-title: Your Name
-position: Ph.D. Student
-affiliation: Your Affiliation
-email: yourname (at) example.edu
+title: Jiyun Jung
+position: Undergraduate Student
+affiliation: Yonsei University
+email: jiyunjung1126@yonsei.ac.kr
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: minimal light
 description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+canonical: https://jiyunjung0.github.io
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/
+#oogle_scholar: https://scholar.google.com/
 cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/
-linkedin: https://www.linkedin.com/
-twitter: https://twitter.com/
+github_link: https://github.com/jiyunjung0
+linkedin: https://www.linkedin.com/in/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9C%B5%ED%95%A9%EB%8C%80%ED%95%99-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%ED%95%99%EA%B3%BC-%EC%A0%95%EC%A7%80%EC%9C%A4-850b34368/
+#twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
@@ -34,7 +34,7 @@ auto_dark_mode: true
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
+font: "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics

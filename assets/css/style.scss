@@ -2,3 +2,91 @@
 ---
 
 @import "minimal-light";
+
+/* ----- 아래부터 모든 디자인 수정사항 ----- */
+
+/* 다크 모드일 때의 색상 변경 */
+@media (prefers-color-scheme: dark) {
+    /* 전체 배경색과 기본 글자색 */
+    body {
+        background-color: #1f1f1f !important; /* 어두운 회검정색 (제미나이 배경) */
+        color: #e8e8e8 !important;             /* 흰색 계열 글자 */
+    }
+
+    /* 네모 칸 배경색 */
+    .content-box {
+        background-color: #303134; /* 더 밝은 회색 (제미나이 질문창) */
+    }
+
+    /* 제목(h1, h2 등) 색상 */
+    h1, h2, h3, h4, h5, h6 {
+        color: #8ab4f8;
+    }
+}
+
+/* 각 항목을 감싸는 네모 칸의 공통 스타일 */
+.content-box {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #5f6368;
+}
+
+/* 프로필 사진 스타일 수정 */
+#header .image.avatar {
+  width: 12em;
+}
+
+.image.avatar img {
+  width: 100%;
+  border-radius: 8px;
+  padding: 0;
+}
+
+/* ----- 아래부터 프로젝트/취미 이미지 스타일 추가 ----- */
+
+/* Projects 섹션 레이아웃 */
+.project-item {
+  display: flex;        /* 텍스트와 이미지를 가로로 나란히 배치 */
+  align-items: center;  /* 세로 중앙 정렬 */
+  gap: 1.5rem;          /* 텍스트와 이미지 사이 간격 */
+}
+
+.project-text {
+  flex: 2; /* 텍스트가 이미지보다 2배의 공간을 차지 */
+}
+
+.project-image {
+  flex: 1; /* 이미지가 1배의 공간을 차지 */
+}
+
+.project-image img {
+  width: 100%;
+  border-radius: 8px; /* 이미지 모서리를 둥글게 */
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #5f6368; /* 프로젝트 사이의 구분선 */
+  margin: 1.5rem 0;
+}
+
+/* Hobby 섹션 레이아웃 */
+.hobby-section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.hobby-text {
+  flex: 1;
+}
+
+.hobby-image {
+  flex: 1;
+}
+
+.hobby-image img {
+  width: 100%;
+  border-radius: 8px;
+}
