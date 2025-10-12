@@ -3,14 +3,7 @@ layout: homepage
 ---
 
 <div class="content-box">
-  <h2>About Me</h2>
-  <p>
-    I am a Yonsei University undergraduate student majoring in Artificial Intelligence. My interests lie in Machine Learning, Backend, Cloud Computing, and Cybersecurity. Through various projects and activities, I have gained hands-on experience in developing AI services, including a Retrieval-Augmented Generation (RAG) chatbot, and computer vision applications. This experience has solidified my passion for the field, and I am eager to continue learning and tackling more complex challenges.
-  </p>
-</div>
-
-<div class="content-box">
-  <h2>Education</h2>
+  <h2 id="education">Education</h2>
   <h3>Yonsei University (Mar. 2024 – Present)</h3>
   <ul>
     <li><strong>Degree:</strong> Bachelor of Artificial Intelligence</li>
@@ -19,7 +12,14 @@ layout: homepage
 </div>
 
 <div class="content-box">
-  <h2>Projects</h2>
+  <h2 id="about">About Me</h2>
+  <p>
+    I am a Yonsei University undergraduate student majoring in Artificial Intelligence. My interests lie in Machine Learning, Backend, Cloud Computing, and Cybersecurity. Through various projects and activities, I have gained hands-on experience in developing AI services, including a Retrieval-Augmented Generation (RAG) chatbot, and computer vision applications. This experience has solidified my passion for the field, and I am eager to continue learning and tackling more complex challenges.
+  </p>
+</div>
+
+<div class="content-box">
+  <h2 id="projects">Projects</h2>
   
   <div class="project-item">
     <div class="project-text">
@@ -40,7 +40,7 @@ layout: homepage
 
   <div class="project-item">
     <div class="project-text">
-      <h3><a href="https://github.com/jiyunjung0/ragchatbot" target="_blank">RAG Chat Bot</a></h3>
+      <h3><a href="https://github.com/jiyunjung0/rag-chatbot" target="_blank">RAG Chat Bot</a></h3>
       <p>This project addresses the challenge of Large Language Model (LLM) "hallucinations" by creating a Q&A chatbot that provides answers grounded exclusively in a trusted, private knowledge base. The system is designed to be reliable and contextually precise.</p>
       <ul>
         <li><strong>Architecture:</strong> Employed a Retrieval-Augmented Generation (RAG) model.</li>
@@ -52,7 +52,7 @@ layout: homepage
 </div>
 
 <div class="content-box">
-  <h2>Experiences</h2>
+  <h2 id="experiences">Experiences</h2>
   <h3>AX Coding Camp (Aug. 2025)</h3>
   <ul>
     <li>Learned advanced prompt engineering techniques and developed functional AI web services using the OpenAI API and Gradio.</li>
@@ -72,13 +72,25 @@ layout: homepage
 
 
 <div class="content-box">
-  <h2>Skills & Interests</h2>
+  <h2 id="skills">Skills</h2>
+  <ul>
+    <li><strong>Languages:</strong> Python, C/C++, MATLAB</li>
+  </ul>
+</div>
+
+<div class="content-box">
+  <h2 id="interests">Interests</h2>
+  <ul>
+    <li>Machine Learning, Backend, Cloud Computing, Cybersecurity</li>
+  </ul>
+</div>
+
+<div class="content-box">
+  <h2 id="hobby">Hobby</h2>
   <div class="hobby-section">
     <div class="hobby-text">
       <ul>
-        <li><strong>Languages:</strong> Python, C/C++, MATLAB</li>
-        <li><strong>Interests:</strong> Machine Learning, Backend, Cloud Computing, Cybersecurity</li>
-        <li><strong>Hobby:</strong> Playing games, Photography, Cooking</li>
+        <li>Playing games, Photography, Cooking</li>
       </ul>
     </div>
     <div class="hobby-image">

@@ -90,3 +90,95 @@ hr {
   width: 100%;
   border-radius: 8px;
 }
+
+/* ----- 아래부터 상단 고정 내비게이션 바 스타일 ----- */
+
+/* 부드러운 스크롤 및 스크롤 위치 조정 */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; /* 상단 바 높이만큼 여백을 줘서 제목이 가려지지 않게 함 */
+}
+
+/* 상단 바 자체의 스타일 */
+.top-nav {
+  position: fixed; /* 화면에 고정 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center; /* 버튼들을 가운데 정렬 */
+  padding: 0.75rem 0;
+  z-index: 1000; /* 다른 요소들 위에 보이도록 설정 */
+  border-bottom: 1px solid #5f6368; /* 구분선 */
+}
+
+/* 상단 바의 버튼 스타일 */
+.top-nav a {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  margin: 0 0.5rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+/* 메인 콘텐츠가 상단 바에 가려지지 않도록 밀어주기 */
+section {
+  padding-top: 5rem !important; /* 상단 바 높이만큼 여백 추가 */
+}
+
+/* 다크 모드일 때 상단 바 색상 */
+@media (prefers-color-scheme: dark) {
+  .top-nav {
+    background-color: #1f1f1f; /* 전체 배경과 동일한 색 */
+  }
+  .top-nav a {
+    color: #e8e8e8;
+  }
+  .top-nav a:hover {
+    background-color: #5f6368;
+  }
+}
+
+/* 라이트 모드일 때 상단 바 색상 */
+@media (prefers-color-scheme: light) {
+  .top-nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .top-nav a {
+    color: #333;
+  }
+  .top-nav a:hover {
+    background-color: #f0f0f0;
+  }
+}
+
+/* 기존 왼쪽 사이드바에서 불필요해진 버튼 메뉴 관련 코드 숨기기 */
+.main-nav {
+  display: none !important;
+}
+
+/* ----- 아래부터 모바일 화면 사진 크기 최종 수정 ----- */
+
+/* 화면 가로 크기가 960px 이하일 때만 적용 */
+@media screen and (max-width: 960px) {
+
+  /* 1. 사진을 감싸는 컨테이너(틀)의 크기를 자동으로 조절하게 변경 */
+  #header .image.avatar {
+    width: auto !important; /* 너비를 자동으로 맞추도록 강제 */
+    margin-bottom: 1rem;    /* 이름과의 간격 조정 */
+  }
+
+  /* 2. 실제 이미지 크기를 모바일에 맞는 적당한 크기로 고정 */
+  .image.avatar img {
+    width: 130px !important;  /* 사진 가로 크기를 130px로 고정 */
+    height: 130px !important; /* 사진 세로 크기를 130px로 고정 */
+    object-fit: cover;      /* 이미지가 비율에 맞게 잘리도록 설정 */
+  }
+
+  /* 3. 기존 테마의 모바일 스타일에서 불필요한 여백 제거 */
+  header {
+    padding-right: 0 !important;
+  }
+}
