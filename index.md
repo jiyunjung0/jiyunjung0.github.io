@@ -3,19 +3,19 @@ layout: homepage
 ---
 
 <div class="content-box">
+  <h2 id="about">About Me</h2>
+  <p>
+    I am a Yonsei University undergraduate student majoring in Artificial Intelligence. My interests lie in Machine Learning, Backend, Cloud Computing, and Cybersecurity. Through various projects and activities, I have gained hands-on experience in developing AI services, including a Retrieval-Augmented Generation (RAG) chatbot, and computer vision applications. This experience has solidified my passion for the field, and I am eager to continue learning and tackling more complex challenges.
+  </p>
+</div>
+
+<div class="content-box">
   <h2 id="education">Education</h2>
   <h3>Yonsei University (Mar. 2024 – Present)</h3>
   <ul>
     <li><strong>Degree:</strong> Bachelor of Artificial Intelligence</li>
     <li><strong>GPA:</strong> 3.86/4.50</li>
   </ul>
-</div>
-
-<div class="content-box">
-  <h2 id="about">About Me</h2>
-  <p>
-    I am a Yonsei University undergraduate student majoring in Artificial Intelligence. My interests lie in Machine Learning, Backend, Cloud Computing, and Cybersecurity. Through various projects and activities, I have gained hands-on experience in developing AI services, including a Retrieval-Augmented Generation (RAG) chatbot, and computer vision applications. This experience has solidified my passion for the field, and I am eager to continue learning and tackling more complex challenges.
-  </p>
 </div>
 
 <div class="content-box">
@@ -68,8 +68,6 @@ layout: homepage
     <li>Worked on the "Sniff Cam" project.</li>
   </ul>
 </div>
-
-
 
 <div class="content-box">
   <h2 id="skills">Skills</h2>
