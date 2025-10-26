@@ -13,7 +13,7 @@ layout: homepage
   <h2 id="education">Education</h2>
   <h3>Yonsei University (Mar. 2024 – Present)</h3>
   <ul>
-    <li><strong>Degree:</strong> Bachelor of Artificial Intelligence</li>
+    <li><strong>Degree:</strong> Undergraduate student of Artificial Intelligence</li>
     <li><strong>GPA:</strong> 3.86/4.50</li>
   </ul>
 </div>
@@ -79,12 +79,23 @@ layout: homepage
 <div class="content-box">
   <h2 id="interests">Interests</h2>
   <ul>
-    <li>Machine Learning, Backend, Cloud Computing, Cybersecurity</li>
+    <li>
+      **Machine Learning:** I am keenly interested in the fundamental challenges of **Reinforcement Learning (RL)**, particularly **Model-Based RL (MBRL)**, where I aim to investigate methods for **improving Sample Efficiency** and stability. My focus is on exploring how **Foundation Models** can be applied to complex visual tasks and how to enhance their **robustness and generalization capabilities** across diverse data environments.
+    </li>
+    <li>
+      **Backend:** I am interested in investigating the design and optimization of **High-Performance Distributed Systems** to handle large-scale traffic. Specifically, I want to explore best practices for building **Low-Latency** backend architectures essential for **real-time AI model serving** and the implementation of efficient **API Gateways**.
+    </li>
+    <li>
+      **Cloud Computing (AI-Focused):** My goal is to investigate methods for **optimizing AI/ML Workloads** within the cloud. I am interested in studying the effective use of **Kubernetes (K8s) and MLOps** practices for managing scalable training pipelines for large models, and exploring the architectural patterns of **Serverless and Container Orchestration** for cost-efficient, high-scalability inference services.
+    </li>
+    <li>
+      **Cybersecurity:** I wish to investigate advanced defense mechanisms, focusing on **AI-Powered Threat Detection** using Machine Learning for building highly accurate Intrusion Detection Systems (IDS) and performing real-time **Anomaly Detection**. Furthermore, I am interested in analyzing common **Web and Application Security** vulnerabilities and researching robust authentication/authorization protocols for secure Backend API development.
+    </li>
   </ul>
 </div>
 
 <div class="content-box">
-  <h2 id="hobby">Hobby</h2>
+  <h2 id="hobbies">Hobby</h2>
   <div class="hobby-section">
     <div class="hobby-text">
       <ul>
