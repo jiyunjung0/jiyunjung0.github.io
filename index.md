@@ -80,16 +80,16 @@ layout: homepage
   <h2 id="interests">Interests</h2>
   <ul>
     <li>
-      <strong>Machine Learning:</strong> I am keenly interested in the fundamental challenges of <strong>Reinforcement Learning (RL)</strong>, particularly <strong>Model-Based RL (MBRL)</strong>, where I aim to investigate methods for <strong>improving Sample Efficiency</strong> and stability. My focus is on exploring how <strong>Foundation Models</strong> can be applied to complex visual tasks and how to enhance their <strong>robustness and generalization capabilities</strong> across diverse data environments.
+      <strong>Machine Learning:</strong> I am keenly interested in the fundamental challenges of <strong>Reinforcement Learning (RL)</strong>, particularly Model-Based RL (MBRL), where I aim to investigate methods for improving Sample Efficiency and stability. My focus is on exploring how Foundation Models can be applied to complex visual tasks and how to enhance their robustness and generalization capabilities across diverse data environments.
     </li>
-    <li>
-      <strong>Backend:</strong> I am interested in investigating the design and optimization of <strong>High-Performance Distributed Systems</strong> to handle large-scale traffic. Specifically, I want to explore best practices for building <strong>Low-Latency</strong> backend architectures essential for <strong>real-time AI model serving</strong> and the implementation of efficient <strong>API Gateways</strong>.
+<br><br> <li>
+      <strong>Backend:</strong> I am interested in investigating the design and optimization of <strong>High-Performance Distributed Systems</strong> to handle large-scale traffic. Specifically, I want to explore best practices for building <strong>Low-Latency</strong> backend architectures essential for real-time AI model serving and the implementation of efficient <strong>API Gateways</strong>.
     </li>
-    <li>
-      <strong>Cloud Computing (AI-Focused):</strong> My goal is to investigate methods for <strong>optimizing AI/ML Workloads</strong> within the cloud. I am interested in studying the effective use of <strong>Kubernetes (K8s) and MLOps</strong> practices for managing scalable training pipelines for large models, and exploring the architectural patterns of <strong>Serverless and Container Orchestration</strong> for cost-efficient, high-scalability inference services.
+<br><br> <li>
+      <strong>Cloud Computing:</strong> My goal is to investigate methods for <strong>optimizing AI/ML Workloads</strong> within the cloud. I am interested in studying the effective use of Kubernetes (K8s) and MLOps practices for managing scalable training pipelines for large models, and exploring the architectural patterns of <strong>Serverless and Container Orchestration</strong> for cost-efficient, high-scalability inference services.
     </li>
-    <li>
-      <strong>Cybersecurity:</strong> I wish to investigate advanced defense mechanisms, focusing on <strong>AI-Powered Threat Detection</strong> using Machine Learning for building highly accurate Intrusion Detection Systems (IDS) and performing real-time <strong>Anomaly Detection</strong>. Furthermore, I am interested in analyzing common <strong>Web and Application Security</strong> vulnerabilities and researching robust authentication/authorization protocols for secure Backend API development.
+<br><br> <li>
+      <strong>Cybersecurity:</strong> I wish to investigate advanced defense mechanisms, focusing on <strong>AI-Powered Threat Detection</strong> using Machine Learning for building highly accurate Intrusion Detection Systems (IDS) and performing real-time Anomaly Detection. Furthermore, I am interested in analyzing common Web and Application Security vulnerabilities and researching robust authentication/authorization protocols for secure Backend API development.
     </li>
   </ul>
 </div>
